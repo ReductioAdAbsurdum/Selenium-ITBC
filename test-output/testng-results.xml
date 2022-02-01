@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-30T12:39:23 CET" name="Suite" finished-at="2022-01-30T12:40:10 CET" duration-ms="46546">
+    <groups>
+    </groups>
+    <test started-at="2022-01-30T12:39:23 CET" name="Setup" finished-at="2022-01-30T12:39:23 CET" duration-ms="6">
+    </test> <!-- Setup -->
+    <test started-at="2022-01-30T12:39:23 CET" name="Elements" finished-at="2022-01-30T12:40:10 CET" duration-ms="46527">
+      <class name="elements.text_box.TextBox_TestGroup">
+        <test-method is-config="true" signature="init()[pri:0, instance:elements.text_box.TextBox_TestGroup@4445629]" started-at="2022-01-30T12:40:08 CET" name="init" finished-at="2022-01-30T12:40:08 CET" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="OpenPageTest()[pri:0, instance:elements.text_box.TextBox_TestGroup@4445629]" started-at="2022-01-30T12:40:08 CET" name="OpenPageTest" finished-at="2022-01-30T12:40:10 CET" duration-ms="1805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenPageTest -->
+      </class> <!-- elements.text_box.TextBox_TestGroup -->
+      <class name="setup.DriverSetup">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:setup.DriverSetup@60611244]" started-at="2022-01-30T12:39:19 CET" name="beforeSuite" finished-at="2022-01-30T12:39:23 CET" duration-ms="4082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:setup.DriverSetup@60611244]" started-at="2022-01-30T12:40:10 CET" name="afterSuite" finished-at="2022-01-30T12:40:10 CET" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- setup.DriverSetup -->
+      <class name="elements.buttons.Buttons_TestGroup">
+        <test-method is-config="true" signature="init()[pri:0, instance:elements.buttons.Buttons_TestGroup@18ce0030]" started-at="2022-01-30T12:39:23 CET" name="init" finished-at="2022-01-30T12:39:23 CET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="OpenPageTest()[pri:0, instance:elements.buttons.Buttons_TestGroup@18ce0030]" started-at="2022-01-30T12:39:23 CET" name="OpenPageTest" finished-at="2022-01-30T12:40:08 CET" duration-ms="44673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenPageTest -->
+      </class> <!-- elements.buttons.Buttons_TestGroup -->
+    </test> <!-- Elements -->
+  </suite> <!-- Suite -->
+</testng-results>
