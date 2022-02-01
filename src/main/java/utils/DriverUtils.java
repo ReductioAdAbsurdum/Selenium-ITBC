@@ -27,12 +27,23 @@ public class DriverUtils
         return result;
     }
 
-    public boolean isElementVisibleNow(String elementId)
+    public boolean isElementVisibleNowId(String elementId)
     {
         Duration originalDuration = DRIVER.manage().timeouts().getImplicitWaitTimeout();
         DRIVER.manage().timeouts().implicitlyWait(Duration.ZERO);
 
         boolean result = !ExpectedConditions.invisibilityOfElementLocated(By.id(elementId)).apply(DRIVER);
+
+        DRIVER.manage().timeouts().implicitlyWait(originalDuration);
+        return result;
+    }
+
+    public boolean isElementVisibleNowPath(String elementPath)
+    {
+        Duration originalDuration = DRIVER.manage().timeouts().getImplicitWaitTimeout();
+        DRIVER.manage().timeouts().implicitlyWait(Duration.ZERO);
+
+        boolean result = !ExpectedConditions.invisibilityOfElementLocated(By.xpath(elementPath)).apply(DRIVER);
 
         DRIVER.manage().timeouts().implicitlyWait(originalDuration);
         return result;

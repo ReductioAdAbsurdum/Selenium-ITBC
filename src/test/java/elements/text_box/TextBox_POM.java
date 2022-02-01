@@ -86,7 +86,7 @@ public class TextBox_POM
 
     public boolean outputBox_Visible()
     {
-        return UTILS.isElementVisibleNow(OUTPUT_ID);
+        return UTILS.isElementVisibleNowId(OUTPUT_ID);
     }
 
     public String getOutputBoxName()

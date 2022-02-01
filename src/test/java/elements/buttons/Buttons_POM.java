@@ -35,7 +35,7 @@ public class Buttons_POM
     }
     public boolean doubleClickMessage_Visible()
     {
-        return UTILS.isElementVisibleNow(DOUBLE_CLICK_MSG_ID);
+        return UTILS.isElementVisibleNowId(DOUBLE_CLICK_MSG_ID);
     }
 
     private @FindBy(id = "rightClickBtn")
@@ -47,7 +47,7 @@ public class Buttons_POM
     }
     public boolean rightClickMessage_Visible()
     {
-        return UTILS.isElementVisibleNow(RIGHT_CLICK_MSG_ID);
+        return UTILS.isElementVisibleNowId(RIGHT_CLICK_MSG_ID);
     }
 
     private @FindBy(xpath = "/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[3]/button[1]")
@@ -59,7 +59,7 @@ public class Buttons_POM
     }
     public boolean leftClickMessage_Visible()
     {
-        return UTILS.isElementVisibleNow(LEFT_CLICK_MSG_ID);
+        return UTILS.isElementVisibleNowId(LEFT_CLICK_MSG_ID);
     }
 
 
