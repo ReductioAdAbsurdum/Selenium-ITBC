@@ -12,9 +12,9 @@
     
     <test name="IT Bootcamp itBootcampTest" >
         <classes>
-<!--            <class name="elements.buttons.Buttons_TestGroup"></class>-->
+<class name="elements.buttons.Buttons_TestGroup"></class>
 <!--            <class name="elements.text_box.TextBox_TestGroup"></class>-->
-            <class name="elements.check_box.CheckBox_TestGroup"></class>
+<!--            <class name="elements.check_box.CheckBox_TestGroup"></class>-->
         </classes>
     </test>
     
