@@ -38,7 +38,7 @@ public class Links_POM
     //#region HOME
     private final String HOME_LINK_ID = "simpleLink";
     @FindBy(id = HOME_LINK_ID)
-    WebElement Home_Link;
+    private WebElement Home_Link;
     public void Home_Link_Click()
     {
         Home_Link.click();
@@ -48,7 +48,7 @@ public class Links_POM
     //#region HOME46
     private final String HOME46ORF_LINK_ID = "dynamicLink";
     @FindBy(id = HOME46ORF_LINK_ID)
-    WebElement Home46orf_Link;
+    private WebElement Home46orf_Link;
     public void Home460rf_Link_Click()
     {
         Home46orf_Link.click();
@@ -58,7 +58,7 @@ public class Links_POM
     //#region CREATED
     private final String CREATED_API_ID = "created";
     @FindBy(id = CREATED_API_ID)
-    WebElement Created_API;
+    private WebElement Created_API;
     public void Created_API_Click()
     {
         Created_API.click();
@@ -72,7 +72,7 @@ public class Links_POM
     //#region NO_CONTENT
     private final String NO_CONTENT_API_ID = "no-content";
     @FindBy(id = NO_CONTENT_API_ID)
-    WebElement NoContent_API;
+    private WebElement NoContent_API;
     public void NoContent_API_Click()
     {
         NoContent_API.click();
@@ -86,7 +86,7 @@ public class Links_POM
     //#region MOVED
     private final String MOVED_API_ID = "moved";
     @FindBy(id = MOVED_API_ID)
-    WebElement Moved_API;
+    private WebElement Moved_API;
     public void Moved_API_Click()
     {
         Moved_API.click();
@@ -97,10 +97,10 @@ public class Links_POM
     }
     //endregion
 
-    //#region HOME
+    //#region BAD REQUEST
     private final String BAD_REQUEST_API_ID = "bad-request";
     @FindBy(id = BAD_REQUEST_API_ID)
-    WebElement BadRequest_API;
+    private WebElement BadRequest_API;
     public void BadRequest_API_Click()
     {
         BadRequest_API.click();
@@ -114,7 +114,7 @@ public class Links_POM
     //#region UNAUTHORIZED
     private final String UNAUTHORIZED_API_ID = "unauthorized";
     @FindBy(id = UNAUTHORIZED_API_ID)
-    WebElement Unauthorized_API;
+    private WebElement Unauthorized_API;
     public void Unauthorized_API_Click()
     {
         Unauthorized_API.click();
@@ -129,7 +129,7 @@ public class Links_POM
 
     private final String FORBIDDEN_API_ID = "forbidden";
     @FindBy(id = FORBIDDEN_API_ID)
-    WebElement Forbidden_API;
+    private WebElement Forbidden_API;
     public void Forbidden_API_Click()
     {
         Forbidden_API.click();
@@ -143,7 +143,7 @@ public class Links_POM
     //#region NOT_FOUND
     private final String NOT_FOUND_API_ID = "invalid-url";
     @FindBy(id = NOT_FOUND_API_ID)
-    WebElement NotFound_API;
+    private WebElement NotFound_API;
     public void NotFound_API_Click()
     {
         NotFound_API.click();
